@@ -8,6 +8,8 @@ import {
 import FlatCard from './src/components/FlatCard';
 import ElavatedCards from './src/components/ElavatedCards';
 import FancyCard from './src/components/FancyCard';
+import ActionCard from './src/components/ActionCard';
+import ContactList from './src/components/ContactList';
 
 
 
@@ -19,7 +21,10 @@ function App() {
       <FlatCard />
       <ElavatedCards/>
       <FancyCard/>
+      <ActionCard/>
       </ScrollView>
+      
+      <ContactList/>
     </SafeAreaView>
   );
 }

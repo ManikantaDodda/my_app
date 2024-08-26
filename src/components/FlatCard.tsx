@@ -18,9 +18,6 @@ export default function FlatCard() {
         <View style={[styles.card, {backgroundColor : 'orange'}] }>    
             <Text style = {styles.cardText}>Orange</Text>
         </View>
-        <View style={[styles.card, {backgroundColor : 'orange'}] }>    
-            <Text style = {styles.cardText}>Orange</Text>
-        </View>
       </View> 
     </View>
   )
